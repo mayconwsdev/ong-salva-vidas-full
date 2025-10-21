@@ -1,66 +1,59 @@
-# 🌊 ONG Salva Vidas
+# 🌊 ONG Salva Vidas — Front-End (por Maycon Wesley)
 
-> Projeto desenvolvido por **Maycon Wesley** — estudante de **Ciência da Computação** pela **Cruzeiro do Sul Virtual**.
+**Desenvolvedor:** Maycon Wesley — Ciência da Computação (Cruzeiro do Sul Virtual)  
+**Stack:** HTML5 semântico • CSS3 responsivo • JavaScript (Vanilla) • Deploy: GitHub Pages
 
-Este projeto foi criado como parte da disciplina **Desenvolvimento Web Front-End**, com foco em HTML5, CSS3 e JavaScript, aplicando boas práticas de semântica, acessibilidade e estrutura de diretórios.
-
----
-
-## 🌐 **Acesse o projeto**
+## 🌐 **Acesse o Projeto**
 🔗 [Clique aqui para ver o site online](https://mayconwsdev.github.io/ong-salva-vidas-full/)
 
----
-
-## 🏛️ **Sobre a ONG**
-
-A **ONG Salva Vidas** é uma organização dedicada a promover ações sociais, ambientais e humanitárias.  
-Seu objetivo é conectar **voluntários**, **doadores** e **gestores** em prol de causas que transformam vidas.
 
 ---
 
-## 💡 **Públicos atendidos**
-
-### 👨‍💼 **Administrador**
-- Gerencia informações institucionais  
-- Cadastra e edita projetos  
-- Acompanha métricas de engajamento  
-- Gerencia voluntários e doações  
-
-### 🤝 **Voluntário**
-- Descobre oportunidades de voluntariado  
-- Candidata-se a projetos  
-- Acompanha histórico de participação  
-- Compartilha experiências  
-
-### 💰 **Doador/Apoiador**
-- Conhece projetos e seus impactos  
-- Realiza doações online  
-- Acompanha aplicação de recursos  
-- Recebe relatórios de transparência  
+## ⚡ Resumo rápido 
+Protótipo front-end completo para gestão de uma ONG: presença institucional, gestão de projetos, captação de doações e engajamento de voluntários. Projeto entregue com código limpo, estrutura modular e foco em usabilidade e acessibilidade. Ideal para avaliar habilidades práticas de um candidato júnior/estágio em desenvolvimento web.
 
 ---
 
-## 🧱 **Páginas do Projeto**
+## 🧱 **Estrutura do Projeto**
+
+O site é composto por **3 páginas principais**, todas desenvolvidas com HTML5 semântico e responsivo:
 
 | Página | Descrição |
 |--------|------------|
 | 🏠 **index.html** | Página inicial com missão, visão e valores da ONG |
-| 💬 **projetos.html** | Mostra projetos sociais e formas de doar |
-| 📝 **cadastro.html** | Formulário de cadastro com validações HTML5 |
-| ⚙️ **admin.html** | Área administrativa para gerenciar dados (protótipo) |
+| 🌱 **projetos.html** | Apresenta os projetos sociais e campanhas de doação |
+| 📝 **cadastro.html** | Formulário interativo de cadastro para voluntários e doadores |
 
 ---
 
-## 🧰 **Especificações Técnicas**
-- Estrutura **HTML5 semântica**
-- Utilização de **CSS3 moderno**
-- Scripts em **JavaScript puro**
-- Validações nativas com atributos HTML5
-- Máscaras de input (CPF, telefone, CEP)
+## ✅ Destaques técnicos (o que eu implementei)
+- **HTML5 semântico**: `header`, `main`, `section`, `article`, `nav`, `footer` — hierarquia de títulos coerente.  
+- **Formulários complexos**: `cadastro.html` com Nome, E-mail, CPF, Telefone, Data de Nascimento, Endereço, CEP, Cidade e Estado; validação nativa (`required`, `pattern`, `minlength`).  
+- **Máscaras em JavaScript**: CPF, Telefone e CEP aplicados ao digitar (máscaras leves, sem bibliotecas).  
+- **Interatividade**: modal acessível para visualização de projetos e candidatura; simulação de doação com barra de progresso.  
+- **Admin protótipo**: `admin.html` com CRUD de projetos e métricas (projetos, voluntários, doações) usando `localStorage` para persistência local.  
+- **Organização**: `/css` (estilos), `/js` (lógica), `/images` (assets) — páginas HTML na raiz.  
+- **Deploy pronto**: projeto configurado para GitHub Pages (link público no README).
 
-## ✨ **Autor**
+---
 
-- Maycon Wesley da Silva
-- Desenvolvedor Front-End em formação
--🎓 Cruzeiro do Sul Virtual — Ciência da Computação
-- 💼 GitHub: https://github.com/mayconwsdev
+## 🔍 Funcionalidades principais (visíveis em minutos)
+- Página institucional com missão, visão, valores e contato.  
+- Lista dinâmica de projetos com indicadores e galeria.  
+- Formulário de cadastro com validação e máscaras.  
+- Candidatura a projetos via modal (dados salvos localmente).  
+- Painel administrativo simples para cadastrar/editar/remover projetos e ver métricas.  
+- Simulação de doações (atualiza progresso e total).
+
+---
+## 🧑‍💻 Desenvolvido por
+
+- 👤 Maycon Wesley
+- 📚 Estudante de Ciência da Computação — Cruzeiro do Sul Virtual
+- 📍 Capoeiras — Pernambuco
+- 💼 GitHub: [https://github.com/mayconwsdev](@mayconwsdev)
+
+---
+
+
+
