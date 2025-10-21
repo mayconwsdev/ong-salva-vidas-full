@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin — ONG Salva Vidas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/novo-logo.png" type="image/png">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <img src="images/logo.png" alt="Logo ONG Salva Vidas" width="100">
+  
+
+      <h1>Área do Administrador</h1>
+    </div>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="admin.html">Área Administrador</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="admin-actions">
+      <h2 id="admin-actions">Gerenciar Projetos</h2>
+      <form id="projectForm">
+        <label for="p-title">Título do projeto</label>
+        <input type="text" id="p-title" required>
+        <label for="p-desc">Descrição</label>
+        <textarea id="p-desc" rows="3" required></textarea>
+        <label for="p-ind">Indicadores (ex: 100 beneficiários)</label>
+        <input type="text" id="p-ind">
+        <button type="submit" class="btn">Salvar projeto</button>
+      </form>
+
+      <h3>Projetos cadastrados</h3>
+      <div id="adminProjects"></div>
+    </section>
+
+    <section aria-labelledby="metrics">
+      <h2 id="metrics">Métricas e Voluntários</h2>
+      <p>Total de projetos: <span id="totalProjects">0</span></p>
+      <p>Total de voluntários cadastrados: <span id="totalVols">0</span></p>
+      <p>Total simulado de doações (R$): <span id="totalDon">0</span></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2025 ONG Salva Vidas</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
