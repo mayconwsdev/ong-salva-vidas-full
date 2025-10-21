@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <rect width="400" height="240" fill="#fff"/>
+  <rect x="10" y="10" width="380" height="120" rx="8" fill="#f0f9f2"/>
+  <text x="20" y="60" font-family="Arial" font-size="18" fill="#2e8b57">Projeto Alimenta Esperança</text>
+  <rect x="10" y="140" width="380" height="80" rx="8" fill="#e9f5ee"/>
+  <text x="20" y="180" font-family="Arial" font-size="14" fill="#6b6b6b">Distribuição de cestas e refeições</text>
+</svg>
