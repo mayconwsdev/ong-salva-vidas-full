@@ -7,7 +7,7 @@ Este projeto foi criado como parte da disciplina **Desenvolvimento Web Front-End
 ---
 
 ## 🌐 **Acesse o projeto**
-🔗 [Clique aqui para ver o site online](file:///C:/Users/mayco/Downloads/ong-salva-vidas-full/projetos.html)
+🔗 [Clique aqui para ver o site online](https://mayconwsdev.github.io/ong-salva-vidas-full/)
 
 ---
 
